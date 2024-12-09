@@ -13,6 +13,6 @@ module com.nicorp.demo2 {
     requires java.logging;
     requires org.json;
 
-    opens com.nicorp.demo2 to javafx.fxml;
-    exports com.nicorp.demo2;
+    opens com.nicorp.demo2.animals.demo2 to javafx.fxml;
+    exports com.nicorp.demo2.animals.demo2;
 }

@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.nicorp.demo2.Controller">
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.nicorp.demo2.animals.demo2.Controller">
     <GridPane fx:id="gridPane" />
     <Button text="Start Simulation" fx:id="startButton" />
 </VBox>
